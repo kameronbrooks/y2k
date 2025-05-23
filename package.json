@@ -1,10 +1,19 @@
 {
-  "name": "y2k",
+  "name": "y2k-css",
   "version": "0.1.0",
   "description": "A neo-retro CSS style library",
-  "main": "index.js",
+  "main": "dist/y2k.css",
+  "style": "dist/y2k.css",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss src/y2k.css -o dist/y2k.css --env production"
+  },
+  "devDependencies": {
+    "postcss-cli": "^10.0.0",
+    "autoprefixer": "^10.0.0",
+    "cssnano": "^5.0.0"
   },
   "author": "Kameron Brooks",
   "license": "MIT"
