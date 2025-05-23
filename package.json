@@ -5,7 +5,8 @@
   "main": "dist/y2k.css",
   "style": "dist/y2k.css",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "build": "postcss src/y2k.css -o dist/y2k.css --env production"
