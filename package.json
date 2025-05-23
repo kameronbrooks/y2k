@@ -1,0 +1,11 @@
+{
+  "name": "y2k",
+  "version": "0.1.0",
+  "description": "A neo-retro CSS style library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kameron Brooks",
+  "license": "MIT"
+}
