@@ -17,10 +17,28 @@ Y2K.css is a neo-retro CSS style library. It provides a collection of CSS classe
 
 ## Installation
 
+
+
+### Using NPM
+Import the dependency into your project
+
+```bash
+npm i y2k-css
+```
+
+### Old-school (HTML/CSS)
 To use Y2K.css, you can include the compiled CSS file in your project.
 
 ## Usage
 
+### Using NPM
+
+Import the css file from the package into your (React/Nextjs/etc.)
+```javascript
+import "y2k-css/dist/y2k.css";
+```
+
+### Old-school (HTML/CSS)
 Link the `dist/y2k.css` file in your HTML:
 
 ```html
