@@ -489,8 +489,17 @@
 }
 
 .retro-shadow-default {
-  box-shadow: 10px 10px 0px #000
+  box-shadow: 10px 10px 0px #000;
 }
+
+.retro-shadow-sm {
+  box-shadow: 5px 5px 0px #000;
+}
+
+.retro-shadow-xs {
+  box-shadow: 2px 2px 0px #111;
+}
+
 
 .retro-bevel-outset {
   border: outset 2px #cfcfcf;
