@@ -521,11 +521,54 @@
 }
 
 .retro-button-default {
+    background-color: #f0f0f0;
     border-top: 2px solid #cfcfcf;
     border-left: 2px solid #e0e0e0;
     border-right: 2px solid #8a8a8a;
     border-bottom: 2px solid #5a5a5a;
     padding: 0.5em 0.7em;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2); /* subtle shadow */
+    box-sizing: content-box;
+}
+
+.retro-button-default:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.retro-button-default:active {
+    background-color: #f0f0f0;
+    border-top: 2px solid #8a8a8a;
+    border-left: 2px solid #5a5a5a;
+    border-right: 2px solid #cfcfcf;
+    border-bottom: 2px solid #e0e0e0;
+    box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.2); /* subtle shadow */
+}
+
+.retro-button-3d{
+    background: linear-gradient(0deg, #d1d1d1 35%, #f1f1f1 65%, #dddddd 90%);
+    image-rendering: pixelated;
+    border-top: 2px solid #cfcfcf;
+    border-left: 2px solid #e0e0e0;
+    border-right: 2px solid #8a8a8a;
+    border-bottom: 2px solid #5a5a5a;
+    padding: 0.5em 0.7em;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2); /* subtle shadow */
+    box-sizing: content-box;
+}
+
+.retro-button-3d:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.retro-button-3d:active {
+    background-color: #f0f0f0;
+    border-top: 2px solid #8a8a8a;
+    border-left: 2px solid #5a5a5a;
+    border-right: 2px solid #cfcfcf;
+    border-bottom: 2px solid #e0e0e0;
+    box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.2); /* subtle shadow */
 }
 
 .retro-input {
@@ -845,12 +888,58 @@
         box-shadow: 2px 2px 0px #eeeeee;
     }
     
+    /* Dark mode buttons */
     .retro-button-default {
-        border-top: 2px solid #505050;
-        border-left: 2px solid #606060;
-        border-right: 2px solid #252525;
-        border-bottom: 2px solid #151515;
+        background-color: #333333;
+        border-top: 2px solid #555555;
+        border-left: 2px solid #505050;
+        border-right: 2px solid #222222;
+        border-bottom: 2px solid #1a1a1a;
         padding: 0.5em 0.7em;
+        box-shadow: 2px 2px 0px rgba(255, 255, 255, 0.1); /* subtle light shadow */
+        box-sizing: content-box;
+        color: #e0e0e0;
+    }
+
+    .retro-button-default:hover {
+        background-color: #3a3a3a;
+        cursor: pointer;
+    }
+
+    .retro-button-default:active {
+        background-color: #2a2a2a;
+        border-top: 2px solid #222222;
+        border-left: 2px solid #1a1a1a;
+        border-right: 2px solid #555555;
+        border-bottom: 2px solid #505050;
+        box-shadow: inset 2px 2px 0px rgba(255, 255, 255, 0.3); /* subtle inset shadow */
+    }
+
+    .retro-button-3d {
+        background: linear-gradient(0deg, #2a2a2a 35%, #3f3f3f 65%, #333333 90%);
+        image-rendering: pixelated;
+        border-top: 2px solid #555555;
+        border-left: 2px solid #505050;
+        border-right: 2px solid #222222;
+        border-bottom: 2px solid #1a1a1a;
+        padding: 0.5em 0.7em;
+        box-shadow: 2px 2px 0px rgba(255, 255, 255, 0.1); /* subtle light shadow */
+        box-sizing: content-box;
+        color: #e0e0e0;
+    }
+
+    .retro-button-3d:hover {
+        background-color: #3a3a3a;
+        cursor: pointer;
+    }
+
+    .retro-button-3d:active {
+        background-color: #2a2a2a;
+        border-top: 2px solid #222222;
+        border-left: 2px solid #1a1a1a;
+        border-right: 2px solid #555555;
+        border-bottom: 2px solid #505050;
+        box-shadow: inset 2px 2px 0px rgba(255, 255, 255, 0.3); /* subtle inset shadow */
     }
 
     .retro-input {
