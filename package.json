@@ -1,6 +1,6 @@
 {
   "name": "y2k-css",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A neo-retro CSS style library",
   "main": "dist/y2k.css",
   "style": "dist/y2k.css",

@@ -528,6 +528,26 @@
     padding: 0.5em 0.7em;
 }
 
+.retro-input {
+  font-family: monospace;
+  font-size: 0.9rem;
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 4px 6px;
+  border: 1px solid #000;
+  outline: none;
+  box-sizing: border-box;
+  box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.1); /* subtle inset shadow */
+}
+
+/* on focus, pop it “out” */
+.retro-input:focus {
+  border: 2px solid #000;
+  background-color: #fcfcfc;
+}
+
+
+
 
 
 /* Dark Mode adjustments */
@@ -832,4 +852,24 @@
         border-bottom: 2px solid #151515;
         padding: 0.5em 0.7em;
     }
+
+    .retro-input {
+        font-family: monospace;
+        font-size: 0.9rem;
+        background-color: #252525;
+        color: #fff;
+        padding: 4px 6px;
+        border: 1px solid #606060;
+        outline: none;
+        box-sizing: border-box;
+        box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.3); /* darker inset shadow for dark mode */
+    }
+
+    /* on focus, pop it "out" */
+    .retro-input:focus {
+        border: 2px solid #808080;
+        background-color: #303030;
+    }
+
 }
+
