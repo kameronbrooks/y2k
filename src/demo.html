@@ -12,6 +12,15 @@
             background-color: #f0f0f0;
             color: #333;
         }
+
+        .color-swatch {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border: 1px solid #000;
+            vertical-align: middle;
+            text-align: center;
+        }
         .demo-container {
             max-width: 1200px;
             margin: 0 auto;
@@ -60,6 +69,7 @@
             border: 1px solid #000;
             margin-right: 5px;
             vertical-align: middle;
+            border-color: #fff;
         }
         .shadow-example, .bevel-example {
             padding: 20px;
@@ -76,6 +86,68 @@
             background-color: #333;
             color: #f0f0f0;
         }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #222;
+                color: #f0f0f0;
+            }
+            .demo-container {
+                color: #f0f0f0;
+            }
+            .demo-section {
+                background-color: #333;
+                border-color: #555;
+            }
+            .demo-section h2 {
+                color: #8080ff; /* Light Blue */
+                border-bottom-color: #777;
+            }
+            .demo-box {
+                border-color: #555;
+            }
+            .color-swatch {
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+                border: 1px solid #ffffff;
+                vertical-align: middle;
+                text-align: center;
+                color: #fff;
+                background-color: #000;
+            }
+            .demo-box-content {
+                background-color: rgba(0,0,0,0.5);
+            }
+            .demo-box.text-dark .demo-box-content {
+                color: #fff;
+                background-color: rgba(0,0,0,0.7);
+            }
+            .shadow-example, .bevel-example {
+                background-color: #444;
+                border-color: #555;
+            }
+            .light-bg {
+                background-color: #444;
+                color: #f0f0f0;
+            }
+            .dark-bg {
+                background-color: #222;
+                color: #f0f0f0;
+            }
+            .retro-button-default, 
+            .retro-button-3d, 
+            .retro-button-secondary {
+                background-color: #444;
+                color: #f0f0f0;
+                border-color: #666;
+            }
+            .retro-input {
+                background-color: #333;
+                color: #f0f0f0;
+                border-color: #555;
+            }
+        }
     </style>
 </head>
 <body>
@@ -90,6 +162,60 @@
             <div class="demo-box dither-black-white-8"><span class="demo-box-content">dither-black-white-8</span></div>
             <div class="demo-box dither-black-white-12"><span class="demo-box-content">dither-black-white-12</span></div>
             <div class="demo-box dither-black-white-16"><span class="demo-box-content">dither-black-white-16<br>(Mostly Black)</span></div>
+
+            <div style="display: flex; flex-direction: row; margin: 0 auto;">
+                <div class="color-swatch dither-black-white-0" >
+                    0
+                </div>
+                <div class="color-swatch dither-black-white-1" >
+                    1
+                </div>
+                <div class="color-swatch dither-black-white-2">
+                    2
+                </div>
+                <div class="color-swatch dither-black-white-3">
+                    3
+                </div>
+                <div class="color-swatch dither-black-white-4">
+                    4
+                </div>
+                <div class="color-swatch dither-black-white-5">
+                    5
+                </div>
+                <div class="color-swatch dither-black-white-6">
+                    6
+                </div>
+                <div class="color-swatch dither-black-white-7">
+                    7
+                </div>
+                <div class="color-swatch dither-black-white-8">
+                    8
+                </div>
+                <div class="color-swatch dither-black-white-9">
+                    9
+                </div>
+                <div class="color-swatch dither-black-white-10">
+                    10
+                </div>
+                <div class="color-swatch dither-black-white-11">
+                    11
+                </div>
+                <div class="color-swatch dither-black-white-12">
+                    12
+                </div>
+                <div class="color-swatch dither-black-white-13">
+                    13
+                </div>
+                <div class="color-swatch dither-black-white-14">
+                    14
+                </div>
+                <div class="color-swatch dither-black-white-15">
+                    15
+                </div>
+                <div class="color-swatch dither-black-white-16">
+                    16
+                </div>
+            </div>
         </div>
 
         <div class="demo-section">
@@ -100,6 +226,60 @@
             <div class="demo-box dither-white-black-8 text-dark"><span class="demo-box-content">dither-white-black-8</span></div>
             <div class="demo-box dither-white-black-12 text-dark"><span class="demo-box-content">dither-white-black-12</span></div>
             <div class="demo-box dither-white-black-16 text-dark"><span class="demo-box-content">dither-white-black-16<br>(Mostly White)</span></div>
+
+            <div style="display: flex; flex-direction: row; margin: 0 auto;">
+                <div class="color-swatch dither-white-black-0">
+                    0
+                </div>
+                <div class="color-swatch dither-white-black-1">
+                    1
+                </div>
+                <div class="color-swatch dither-white-black-2">
+                    2
+                </div>
+                <div class="color-swatch dither-white-black-3">
+                    3
+                </div>
+                <div class="color-swatch dither-white-black-4">
+                    4
+                </div>
+                <div class="color-swatch dither-white-black-5">
+                    5
+                </div>
+                <div class="color-swatch dither-white-black-6">
+                    6
+                </div>
+                <div class="color-swatch dither-white-black-7">
+                    7
+                </div>
+                <div class="color-swatch dither-white-black-8">
+                    8
+                </div>
+                <div class="color-swatch dither-white-black-9">
+                    9
+                </div>
+                <div class="color-swatch dither-white-black-10">
+                    10
+                </div>
+                <div class="color-swatch dither-white-black-11">
+                    11
+                </div>
+                <div class="color-swatch dither-white-black-12">
+                    12
+                </div>
+                <div class="color-swatch dither-white-black-13">
+                    13
+                </div>
+                <div class="color-swatch dither-white-black-14">
+                    14
+                </div>
+                <div class="color-swatch dither-white-black-15">
+                    15
+                </div>
+                <div class="color-swatch dither-white-black-16">
+                    16
+                </div>
+            </div>
         </div>
 
         <div class="demo-section" style="background-color: #666;">
@@ -110,6 +290,60 @@
             <div class="demo-box dither-white-alpha-8 text-dark"><span class="demo-box-content">dither-white-alpha-8</span></div>
             <div class="demo-box dither-white-alpha-12 text-dark"><span class="demo-box-content">dither-white-alpha-12</span></div>
             <div class="demo-box dither-white-alpha-16 text-dark"><span class="demo-box-content">dither-white-alpha-16<br>(Solid White)</span></div>
+
+            <div style="display: flex; flex-direction: row; margin: 0 auto;">
+                <div class="color-swatch dither-white-alpha-0" >
+                    0
+                </div>
+                <div class="color-swatch dither-white-alpha-1" >
+                    1
+                </div>
+                <div class="color-swatch dither-white-alpha-2">
+                    2
+                </div>
+                <div class="color-swatch dither-white-alpha-3">
+                    3
+                </div>
+                <div class="color-swatch dither-white-alpha-4">
+                    4
+                </div>
+                <div class="color-swatch dither-white-alpha-5">
+                    5
+                </div>
+                <div class="color-swatch dither-white-alpha-6">
+                    6
+                </div>
+                <div class="color-swatch dither-white-alpha-7">
+                    7
+                </div>
+                <div class="color-swatch dither-white-alpha-8">
+                    8
+                </div>
+                <div class="color-swatch dither-white-alpha-9">
+                    9
+                </div>
+                <div class="color-swatch dither-white-alpha-10">
+                    10
+                </div>
+                <div class="color-swatch dither-white-alpha-11">
+                    11
+                </div>
+                <div class="color-swatch dither-white-alpha-12">
+                    12
+                </div>
+                <div class="color-swatch dither-white-alpha-13">
+                    13
+                </div>
+                <div class="color-swatch dither-white-alpha-14">
+                    14
+                </div>
+                <div class="color-swatch dither-white-alpha-15">
+                    15
+                </div>
+                <div class="color-swatch dither-white-alpha-16">
+                    16
+                </div>
+            </div>
         </div>
 
         <div class="demo-section" style="background-color: #ccc;">
@@ -120,6 +354,60 @@
             <div class="demo-box dither-black-alpha-8"><span class="demo-box-content">dither-black-alpha-8</span></div>
             <div class="demo-box dither-black-alpha-12"><span class="demo-box-content">dither-black-alpha-12</span></div>
             <div class="demo-box dither-black-alpha-16"><span class="demo-box-content">dither-black-alpha-16<br>(Solid Black)</span></div>
+
+            <div style="display: flex; flex-direction: row; margin: 0 auto; "></div>
+                <div class="color-swatch dither-black-alpha-0" >
+                    0
+                </div>
+                <div class="color-swatch dither-black-alpha-1" >
+                    1
+                </div>
+                <div class="color-swatch dither-black-alpha-2">
+                    2
+                </div>
+                <div class="color-swatch dither-black-alpha-3">
+                    3
+                </div>
+                <div class="color-swatch dither-black-alpha-4">
+                    4
+                </div>
+                <div class="color-swatch dither-black-alpha-5">
+                    5
+                </div>
+                <div class="color-swatch dither-black-alpha-6">
+                    6
+                </div>
+                <div class="color-swatch dither-black-alpha-7">
+                    7
+                </div>
+                <div class="color-swatch dither-black-alpha-8">
+                    8
+                </div>
+                <div class="color-swatch dither-black-alpha-9">
+                    9
+                </div>
+                <div class="color-swatch dither-black-alpha-10">
+                    10
+                </div>
+                <div class="color-swatch dither-black-alpha-11">
+                    11
+                </div>
+                <div class="color-swatch dither-black-alpha-12">
+                    12
+                </div>
+                <div class="color-swatch dither-black-alpha-13">
+                    13
+                </div>
+                <div class="color-swatch dither-black-alpha-14">
+                    14
+                </div>
+                <div class="color-swatch dither-black-alpha-15">
+                    15
+                </div>
+                <div class="color-swatch dither-black-alpha-16">
+                    16
+                </div>
+            </div>
         </div>
 
         <div class="demo-section">
@@ -131,6 +419,118 @@
             <div class="shadow-example retro-inverse-shadow-default dark-bg">retro-inverse-shadow-default (on dark)</div>
             <div class="shadow-example retro-inverse-shadow-sm dark-bg">retro-inverse-shadow-sm (on dark)</div>
             <div class="shadow-example retro-inverse-shadow-xs dark-bg">retro-inverse-shadow-xs (on dark)</div>
+            <br />
+            <div class="shadow-example retro-shadow-dither dither-14" style="border:1px solid black; background-color: red; color:white; z-index: 1;">retro-shadow-default</div>
+            <div class="shadow-example retro-shadow-dither dither-14" style="border:0px solid black; background-color: rgb(255, 172, 172); color:white;">retro-shadow-default</div>
+            <div class="shadow-example retro-shadow-dither dither-14" style="border:3px solid rgb(255, 255, 255); background-color: rgb(91, 235, 179); color:white;">retro-shadow-default</div>
+            
+            <div style="display: flex; flex-direction: row; margin: 0 auto; gap: 10px;">
+                <div class="color-swatch retro-shadow-dither dither-0" style="" >
+                    0
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-1" style="" >
+                    1
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-2" style="">
+                    2
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-3" style="">
+                    3
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-4" style="">
+                    4
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-5" style="">
+                    5
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-6" style="">
+                    6
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-7" style="">
+                    7
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-8" style="">
+                    8
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-9" style="">
+                    9
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-10" style="">
+                    10
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-11" style="">
+                    11
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-12" style="">
+                    12
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-13" style="">
+                    13
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-14" style="">
+                    14
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-15" style="">
+                    15
+                </div>
+                <div class="color-swatch retro-shadow-dither dither-16" style="">
+                    16
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: row; margin: 0 auto; gap: 10px; margin-top:10px">
+                <div class="color-swatch retro-shadow-dither dither-0" style="" >
+                    0
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm  dither-1" style="" >
+                    1
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm  dither-2" style="">
+                    2
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm  dither-3" style="">
+                    3
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm  dither-4" style="">
+                    4
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm  dither-5" style="">
+                    5
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm  dither-6" style="">
+                    6
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm  dither-7" style="">
+                    7
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm  dither-8" style="">
+                    8
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm  dither-9" style="">
+                    9
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm  dither-10" style="">
+                    10
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm  dither-11" style="">
+                    11
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm  dither-12" style="">
+                    12
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm  dither-13" style="">
+                    13
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm  dither-14" style="">
+                    14
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm  dither-15" style="">
+                    15
+                </div>
+                <div class="color-swatch retro-shadow-dither-sm dither-16" style="">
+                    16
+                </div>
+            </div>
+            
         </div>
 
         <div class="demo-section">
@@ -153,7 +553,7 @@
             <h2>Buttons</h2>
             <button class="retro-button-default">Default Button</button>
             <button class="retro-button-3d">Primary Button</button>
-            <button class="retro-button-secondary">Secondary Button</button>
+            <button class="retro-button-stark">Secondary Button</button>
         </div>
 
         <div class="demo-section">
