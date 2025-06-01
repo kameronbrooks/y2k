@@ -103,7 +103,15 @@ Here are a few things to keep in mind when using Y2K.css:
     *   The dithered shadow classes (`.retro-shadow-dither`, `.retro-shadow-dither-sm`) use a CSS Custom Property `--shadow-texture`. You must also apply one of the `.dither-0` through `.dither-16` utility classes to the same element (or an ancestor) to define this property and set the desired dither pattern for the shadow.
 *   **`box-sizing`**:
     *   Some components, like buttons, explicitly set `box-sizing: content-box;` to achieve their specific retro look with padding and borders. If you have a global `box-sizing: border-box;` rule, this might lead to slightly different sizing than intended for these specific components. This is generally handled correctly by the library's styles but is worth noting if you encounter layout surprises.
-
+*   **Dithering Pattern Scaling**:
+    *   The dither patterns rely on `image-rendering: pixelated` (or a prefixed variant via the `--image-pixelated` custom property) to maintain a crisp, pixel-art look.
+    *   If you encounter issues where dither patterns appear blurry or not perfectly scaled (e.g., due to fractional pixel rendering, browser zoom, or specific display scaling), you can try applying the `.dither-smooth` class to the element.
+    *   `.dither-smooth` overrides the `--image-pixelated` custom property to `auto`, which allows the browser's default image scaling algorithm. This might result in a softer look but can resolve rendering artifacts in some situations.
+        ```css
+        .dither-smooth {
+            --image-pixelated: auto;
+        }
+        ```
 
 ## License
 
