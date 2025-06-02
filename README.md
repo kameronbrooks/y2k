@@ -28,6 +28,16 @@ Y2K.css is a neo-retro CSS style library. It provides a collection of CSS classe
     *   `.retro-button-stark`: A high-contrast button style with hover and active states.
 *   **Retro Inputs**:
     *   `.retro-input`: A retro-styled text input field with focus state.
+*   **Text Effects**:
+    *   `.retro-loading-text`: Creates an animated "Loading..." style text with cycling dots.
+    *   `.retro-ticker`: A container for horizontally scrolling text.
+        *   `.retro-ticker-content`: The actual text content that scrolls within the `.retro-ticker`.
+*   **Retro Spinners**:
+    *   `.retro-spinner-primary`: A colorful, 8-step animated square spinner.
+    *   `.retro-spinner-primary-round`: A colorful, 8-step animated round spinner with a glossy overlay.
+    *   `.retro-spinner-black`: A grayscale, 8-step animated square spinner.
+    *   `.retro-spinner-black-round`: A grayscale, 8-step animated round spinner with a glossy overlay.
+    *   `.retro-spinner-simple`: A simpler 8-step animated round spinner with a border and shadow, using a black to white conic gradient.
 *   **Dark Mode Support**:
     *   Includes `@media (prefers-color-scheme: dark)` overrides for dithering patterns (alpha versions), shadows (solid and dithered via `--shadow-texture`), bevels, buttons, and inputs to ensure they adapt well to dark system themes.
     *   Specific dark mode utility classes like `.dark-retro-bevel-outset`, `.dark-retro-bevel-inset`, `.dark-retro-shadow-default`, etc., are also available for explicit dark styling.

@@ -18,7 +18,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAFUlEQVR4nGNkYGD4z4AEmJA5xAkAAEEUAQdKO6E4AAAAAElFTkSuQmCC');
     background-size: 4px 4px;
     image-rendering: var(--image-pixelated, pixelated);
-    
+
 }
 
 .dither-black-white-1 {
@@ -27,7 +27,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVR4nGP4////fwYGBjhmhDLggAmZg1UAANwPB/4m/PFgAAAAAElFTkSuQmCC');
     background-size: 4px 4px;
     image-rendering: var(--image-pixelated, pixelated);
-    
+
 }
 
 .dither-black-white-2 {
@@ -36,7 +36,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVR4nGP4////fwYGBjhmhDLggAnGgChkYMBQAQAwuAv57/pkOwAAAABJRU5ErkJggg==');
     background-size: 4px 4px;
     image-rendering: var(--image-pixelated, pixelated);
-    
+
 }
 
 .dither-black-white-3 {
@@ -45,7 +45,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVR4nGP4////fwYGBhAFphlBBAMSYIIxIAoYGDBUAADeCg727vmMQQAAAABJRU5ErkJggg==');
     background-size: 4px 4px;
     image-rendering: var(--image-pixelated, pixelated);
-    
+
 }
 
 .dither-black-white-4 {
@@ -54,7 +54,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIUlEQVR4nGP4////fwYGBhAFphlBBAMSYIJIgJWAaQwVAD25EfMfKhC+AAAAAElFTkSuQmCC');
     background-size: 4px 4px;
     image-rendering: var(--image-pixelated, pixelated);
-    
+
 }
 
 .dither-black-white-5 {
@@ -63,7 +63,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJklEQVR4nGP4////fwYGBhAFphnQOP+ZQGxGRkaQKEiSgRGmDAYAOO0X72azEqIAAAAASUVORK5CYII=');
     background-size: 4px 4px;
     image-rendering: var(--image-pixelated, pixelated);
-    
+
 }
 
 .dither-black-white-6 {
@@ -72,7 +72,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJ0lEQVR4nF2KuREAMAyDUPbfGZ9ySeMKPaAKFJes4mlO0rUn+dpTGUHkGuxnK8EOAAAAAElFTkSuQmCC');
     background-size: 4px 4px;
     image-rendering: var(--image-pixelated, pixelated);
-    
+
 }
 
 .dither-black-white-7 {
@@ -81,7 +81,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIElEQVR4nGP4////fwYGBhAFphmQOWAaXQUjTBlUKQMAD4wh4KVGjFUAAAAASUVORK5CYII=');
     background-size: 4px 4px;
     image-rendering: var(--image-pixelated, pixelated);
-    
+
 }
 
 .dither-black-white-8 {
@@ -90,7 +90,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVR4nGP4////fwYGBhAFphmQOWCaoAoAP0sn2br7KY8AAAAASUVORK5CYII=');
     background-size: 4px 4px;
     image-rendering: var(--image-pixelated, pixelated);
-    
+
 }
 
 .dither-black-white-9 {
@@ -99,7 +99,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJUlEQVR4nGP8////fwYoYGRkZGACETAOWA6qAkSBaZAknAMSBADC+RryKpG3cwAAAABJRU5ErkJggg==');
     background-size: 4px 4px;
     image-rendering: var(--image-pixelated, pixelated);
-    
+
 }
 
 .dither-black-white-10 {
@@ -108,7 +108,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJklEQVR4nGP8////fwYoYGRkZGACETAOSI4JRMA4IABWARMEiQAAP3oQCmHvxpsAAAAASUVORK5CYII=');
     background-size: 4px 4px;
     image-rendering: var(--image-pixelated, pixelated);
-    
+
 }
 
 .dither-black-white-11 {
@@ -117,7 +117,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJElEQVR4nGP8////fwYkwMTIyAhmwGgmkAIQB6YQrAImCBIBANA4DQrzm4tdAAAAAElFTkSuQmCC');
     background-size: 4px 4px;
     image-rendering: var(--image-pixelated, pixelated);
-    
+
 }
 
 .dither-black-white-12 {
@@ -126,7 +126,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGUlEQVR4nGP8////fwYkwMTIyAhmwGmCKgCFDQgLis/bygAAAABJRU5ErkJggg==');
     background-size: 4px 4px;
     image-rendering: var(--image-pixelated, pixelated);
-    
+
 }
 
 .dither-black-white-13 {
@@ -135,7 +135,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHklEQVR4nGP8////fwYkwARjMDIyogrAFDLBZGA0AE7SBwpg/bzzAAAAAElFTkSuQmCC');
     background-size: 4px 4px;
     image-rendering: var(--image-pixelated, pixelated);
-    
+
 }
 
 .dither-black-white-14 {
@@ -144,7 +144,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHklEQVR4nGP8////fwYkwARjMDIyogrAFDLBZGAAAE69BwfCLAnoAAAAAElFTkSuQmCC');
     background-size: 4px 4px;
     image-rendering: var(--image-pixelated, pixelated);
-    
+
 }
 
 .dither-black-white-15 {
@@ -600,24 +600,28 @@
 }
 
 
-.retro-shadow-dither, .retro-shadow-dither-sm {
+.retro-shadow-dither,
+.retro-shadow-dither-sm {
     position: relative;
     /* stack above the pseudo‐element */
     z-index: 3;
 
 }
 
-.retro-shadow-dither::before, .retro-shadow-dither-sm::before {
+.retro-shadow-dither::before,
+.retro-shadow-dither-sm::before {
     content: '';
     position: absolute;
-    top: -1px; left: -1px;
-    right: -1px; bottom: -1px;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
     box-sizing: border-box;
 
     z-index: -1;
     background: inherit;
     border: inherit;
-    
+
 }
 
 .retro-shadow-dither::after {
@@ -638,7 +642,7 @@
     background-repeat: repeat;
     background-image: var(--shadow-texture, url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAFUlEQVR4nGP8////fwYkwITMIU4AAAZdBATO5G0jAAAAAElFTkSuQmCC'));
     image-rendering: var(--image-pixelated, pixelated);
-    
+
     background-size: 4px 4px;
 }
 
@@ -660,7 +664,7 @@
     background-repeat: repeat;
     background-image: var(--shadow-texture, url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAFUlEQVR4nGP8////fwYkwITMIU4AAAZdBATO5G0jAAAAAElFTkSuQmCC'));
     image-rendering: var(--image-pixelated, pixelated);
-    
+
     background-size: 4px 4px;
 }
 
@@ -747,7 +751,8 @@
     border-right: 2px solid #8a8a8a;
     border-bottom: 2px solid #5a5a5a;
     padding: 0.5em 0.7em;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2); /* subtle shadow */
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+    /* subtle shadow */
     box-sizing: content-box;
 }
 
@@ -762,10 +767,11 @@
     border-left: 2px solid #5a5a5a;
     border-right: 2px solid #cfcfcf;
     border-bottom: 2px solid #e0e0e0;
-    box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.2); /* subtle shadow */
+    box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.2);
+    /* subtle shadow */
 }
 
-.retro-button-3d{
+.retro-button-3d {
     background: linear-gradient(0deg, #d1d1d1 35%, #f1f1f1 65%, #dddddd 90%);
     image-rendering: var(--image-pixelated, pixelated);
     border-top: 2px solid #cfcfcf;
@@ -773,7 +779,8 @@
     border-right: 2px solid #8a8a8a;
     border-bottom: 2px solid #5a5a5a;
     padding: 0.5em 0.7em;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2); /* subtle shadow */
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+    /* subtle shadow */
     box-sizing: content-box;
 }
 
@@ -784,7 +791,8 @@
     border-right: 2px solid #8a8a8a;
     border-bottom: 2px solid #5a5a5a;
     padding: 0.5em 0.7em;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2); /* subtle shadow */
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+    /* subtle shadow */
     box-sizing: content-box;
     color: #000000;
 }
@@ -800,11 +808,12 @@
     border-left: 2px solid #5a5a5a;
     border-right: 2px solid #cfcfcf;
     border-bottom: 2px solid #e0e0e0;
-    box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.2); /* subtle shadow */
+    box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.2);
+    /* subtle shadow */
     color: #ffffff;
 }
 
-.retro-button-3d{
+.retro-button-3d {
     background: linear-gradient(0deg, #d1d1d1 35%, #f1f1f1 65%, #dddddd 90%);
     image-rendering: var(--image-pixelated, pixelated);
     border-top: 2px solid #cfcfcf;
@@ -812,7 +821,8 @@
     border-right: 2px solid #8a8a8a;
     border-bottom: 2px solid #5a5a5a;
     padding: 0.5em 0.7em;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2); /* subtle shadow */
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+    /* subtle shadow */
     box-sizing: content-box;
 }
 
@@ -828,25 +838,339 @@
     border-left: 2px solid #5a5a5a;
     border-right: 2px solid #cfcfcf;
     border-bottom: 2px solid #e0e0e0;
-    box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.2); /* subtle shadow */
+    box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.2);
+    /* subtle shadow */
 }
 
 .retro-input {
-  font-family: monospace;
-  font-size: 0.9rem;
-  background-color: #f1f1f1;
-  color: #000;
-  padding: 4px 6px;
-  border: 1px solid #000;
-  outline: none;
-  box-sizing: border-box;
-  box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.1); /* subtle inset shadow */
+    font-family: monospace;
+    font-size: 0.9rem;
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 4px 6px;
+    border: 1px solid #000;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.1);
+    /* subtle inset shadow */
 }
 
 /* on focus, pop it “out” */
 .retro-input:focus {
-  border: 2px solid #000;
-  background-color: #fcfcfc;
+    border: 2px solid #000;
+    background-color: #fcfcfc;
+}
+
+/* Text effects */
+
+.retro-loading-text {
+    font-size: 1.2rem;
+    position: relative;
+}
+
+/* Create a pseudo‐element to hold the dots */
+.retro-loading-text::after {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    /* Reserve space for up to three dots */
+    text-align: left;
+    animation: dots 1s steps(4, end) infinite;
+}
+
+/* Cycle through "", ".", "..", "..." and back to "" */
+@keyframes dots {
+
+    0%,
+    20% {
+        content: "";
+    }
+
+    25%,
+    45% {
+        content: ".";
+    }
+
+    50%,
+    70% {
+        content: "..";
+    }
+
+    75%,
+    95% {
+        content: "...";
+    }
+
+    100% {
+        content: "";
+    }
+}
+
+.retro-ticker {
+    width: 100%;
+    /* or any fixed width you want, e.g. 400px */
+    height: 2rem;
+    /* adjust as needed for your font-size */
+    overflow: hidden;
+    /* hide the overflowing text */
+    display: flex;
+    align-items: center;
+    /* vertical‐center the text */
+    box-sizing: border-box;
+    padding: 0 1rem;
+    /* optional padding on left/right */
+}
+
+/* The moving text: */
+.retro-ticker-content {
+    display: inline-block;
+    white-space: nowrap;
+    /* keep all text on one line */
+    padding-left: 100%;
+    /* start “off‐screen” to the right */
+    animation: ticker-animation 20s linear infinite;
+}
+
+/* Keyframes: from fully right (padding-left:100%) to fully left (translateX to -100% of its own width) */
+@keyframes ticker-animation {
+    0% {
+        transform: translateX(20%);
+    }
+
+    /* starting point: off‐screen right */
+    100% {
+        transform: translateX(-120%);
+    }
+
+    /* ending point: completely scrolled past left */
+}
+
+/* Retro Spinners */
+
+.retro-spinner-primary,
+.retro-spinner-primary-round {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.retro-spinner-primary::before, 
+.retro-spinner-primary-round::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    z-index: 1;
+    background: conic-gradient(
+        rgba(255, 51, 0, 1) 0deg 90deg,
+        rgba(102, 204, 51, 1) 90deg 180deg,
+        rgba(255, 204, 0, 1) 180deg 270deg,
+        rgba(2, 165, 255, 1) 270deg 360deg
+    );
+    transform-origin: center;  /* rotate around its own center */
+    animation: spin8step 1s linear infinite;
+}
+
+.retro-spinner-primary-round:after {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border-radius: 50%;
+    content: '';
+    z-index: 2;
+    border-top: 5px solid rgba(255, 255, 255, 0.9);
+    border-bottom: 5px solid rgba(20, 20, 20, 0.7);
+    filter: blur(2px);
+    transform: rotate(-45deg);
+}
+
+.retro-spinner-black,
+.retro-spinner-black-round {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.retro-spinner-black::before, 
+.retro-spinner-black-round::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    z-index: 1;
+    background: conic-gradient(rgba(0, 0, 0, 1) 0deg 45deg,
+            rgba(0, 0, 0, 0.875) 45deg 90deg,
+            rgba(0, 0, 0, 0.75) 90deg 135deg,
+            rgba(0, 0, 0, 0.625) 135deg 180deg,
+            rgba(0, 0, 0, 0.5) 180deg 225deg,
+            rgba(0, 0, 0, 0.375) 225deg 270deg,
+            rgba(0, 0, 0, 0.25) 270deg 315deg,
+            rgba(0, 0, 0, 0.125) 315deg 360deg);
+    transform-origin: center;  /* rotate around its own center */
+    animation: spin8step 1s linear infinite;
+}
+
+.retro-spinner-black-round:after {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border-radius: 50%;
+    content: '';
+    z-index: 2;
+    border-top: 5px solid rgba(255, 255, 255, 0.9);
+    border-bottom: 5px solid rgba(20, 20, 20, 0.7);
+    filter: blur(2px);
+    transform: rotate(-45deg);
+}
+
+.retro-spinner-simple {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+
+    border-radius: 50%;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+
+    
+}
+
+.retro-spinner-simple::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    background: conic-gradient(rgba(0, 0, 0, 1) 0deg 90deg,
+            rgba(64, 64, 64, 1) 90deg 180deg,
+            rgba(128, 128, 128, 1) 180deg 270deg,
+            rgba(255, 255, 255, 1) 270deg 360deg);
+    transform-origin: center;  /* rotate around its own center */
+    animation: spin8step 1s linear infinite;
+
+}
+
+@keyframes spin4step {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    24% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    49% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    74% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    99% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin8step {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    12.4% {
+        transform: rotate(0deg);
+    }
+
+    12.5% {
+        transform: rotate(45deg);
+    }
+
+    24.9% {
+        transform: rotate(45deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    37.4% {
+        transform: rotate(90deg);
+    }
+
+    37.5% {
+        transform: rotate(135deg);
+    }
+
+    49.9% {
+        transform: rotate(135deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    62.4% {
+        transform: rotate(180deg);
+    }
+
+    62.5% {
+        transform: rotate(225deg);
+    }
+
+    74.9% {
+        transform: rotate(225deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    87.4% {
+        transform: rotate(270deg);
+    }
+
+    87.5% {
+        transform: rotate(315deg);
+    }
+
+    99.9% {
+        transform: rotate(315deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 
@@ -1212,7 +1536,7 @@
     .dark-retro-shadow-xs {
         box-shadow: 2px 2px 0px #eeeeee;
     }
-    
+
     /* Dark mode buttons */
     .retro-button-default {
         background-color: #333333;
@@ -1221,7 +1545,8 @@
         border-right: 2px solid #222222;
         border-bottom: 2px solid #1a1a1a;
         padding: 0.5em 0.7em;
-        box-shadow: 2px 2px 0px rgba(255, 255, 255, 0.1); /* subtle light shadow */
+        box-shadow: 2px 2px 0px rgba(255, 255, 255, 0.1);
+        /* subtle light shadow */
         box-sizing: content-box;
         color: #e0e0e0;
     }
@@ -1237,7 +1562,8 @@
         border-left: 2px solid #1a1a1a;
         border-right: 2px solid #555555;
         border-bottom: 2px solid #505050;
-        box-shadow: inset 2px 2px 0px rgba(255, 255, 255, 0.3); /* subtle inset shadow */
+        box-shadow: inset 2px 2px 0px rgba(255, 255, 255, 0.3);
+        /* subtle inset shadow */
     }
 
     .retro-button-stark {
@@ -1247,7 +1573,8 @@
         border-right: 2px solid #5a5a5a;
         border-bottom: 2px solid #3b3b3b;
         padding: 0.5em 0.7em;
-        box-shadow: 2px 2px 0px rgba(255, 255, 255, 0.1); /* subtle light shadow */
+        box-shadow: 2px 2px 0px rgba(255, 255, 255, 0.1);
+        /* subtle light shadow */
         box-sizing: content-box;
         color: #e0e0e0;
     }
@@ -1263,7 +1590,8 @@
         border-left: 2px solid #1a1a1a;
         border-right: 2px solid #555555;
         border-bottom: 2px solid #505050;
-        box-shadow: inset 2px 2px 0px rgba(255, 255, 255, 0.3); /* subtle inset shadow */
+        box-shadow: inset 2px 2px 0px rgba(255, 255, 255, 0.3);
+        /* subtle inset shadow */
         color: #000000;
     }
 
@@ -1276,7 +1604,8 @@
         border-right: 2px solid #222222;
         border-bottom: 2px solid #1a1a1a;
         padding: 0.5em 0.7em;
-        box-shadow: 2px 2px 0px rgba(255, 255, 255, 0.1); /* subtle light shadow */
+        box-shadow: 2px 2px 0px rgba(255, 255, 255, 0.1);
+        /* subtle light shadow */
         box-sizing: content-box;
         color: #e0e0e0;
     }
@@ -1292,7 +1621,8 @@
         border-left: 2px solid #1a1a1a;
         border-right: 2px solid #555555;
         border-bottom: 2px solid #505050;
-        box-shadow: inset 2px 2px 0px rgba(255, 255, 255, 0.3); /* subtle inset shadow */
+        box-shadow: inset 2px 2px 0px rgba(255, 255, 255, 0.3);
+        /* subtle inset shadow */
     }
 
     .retro-input {
@@ -1304,7 +1634,8 @@
         border: 1px solid #606060;
         outline: none;
         box-sizing: border-box;
-        box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.3); /* darker inset shadow for dark mode */
+        box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.3);
+        /* darker inset shadow for dark mode */
     }
 
     /* on focus, pop it "out" */
@@ -1314,4 +1645,3 @@
     }
 
 }
-
